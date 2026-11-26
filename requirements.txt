@@ -1,0 +1,10 @@
+# Phase 1: data and baseline. More packages are added in later phases
+# (xgboost, shap, torch CPU build, fastapi, streamlit, ...).
+numpy
+pandas
+scikit-learn
+matplotlib
+ucimlrepo
+xlrd          # only needed for the manual .xls fallback in data/download.py
+jupyter
+pytest

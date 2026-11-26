@@ -1,0 +1,4 @@
+model,roc_auc,pr_auc,brier,precision,recall,f1,tn,fp,fn,tp,threshold
+Majority baseline,0.4999,0.2212,0.1723,0.0,0.0,0.0,18691,0,5309,0,0.5
+Logistic regression,0.7264,0.506,0.1447,0.7219,0.2445,0.3653,18191,500,4011,1298,0.5
+Logistic (class_weight=balanced),0.7265,0.5045,0.2065,0.3732,0.6642,0.4778,12768,5923,1783,3526,0.5
